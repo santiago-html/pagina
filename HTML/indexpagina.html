@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria del Trap</title>
+    <link rel="stylesheet" href="microfono.png" type="imagen">
+    <link rel="stylesheet" href="stylepagina.css">
+
+
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            margin-top: 5%;
+            font-size: 50px;
+        }
+        .typewriter {
+            border-right: 2px solid white;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            animation: typing 4s steps(35) forwards, blink 0.90s step-end infinite;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to {width: 100%;}
+        }
+        @keyframes blink {
+            from, to { border-color: transparent; }
+            50% { border-color: white; }
+        }
+    </style>
+    </head>
+<body>
+<div class="typewriter" id="typewriter"></div>
+
+<script>
+    const text = "Bienvenido a la libreria del Trap";
+    let index = 0;
+
+    function type() {
+        if (index < text.length) {
+            document.getElementById("typewriter").innerHTML += text.charAt(index);
+            index++;
+            setTimeout(type, 140); // Ajusta la velocidad aquí
+        }
+    }
+
+    type();
+</script>
+</body>
+</head>
+
+<body>
+    
+   
+<nav>
+ <p>En este sitio puedes ver informacion de tu artista preferido de TRAP, puedes ver su discografia tanto como su mejor tema del momento
+    o ver sus temas mas escuchados.
+ </p>
+</nav>
+
+
+<input type="search" name="" id="">
+
+<nav>
+    
+</nav>
+
+</body>
+</html>

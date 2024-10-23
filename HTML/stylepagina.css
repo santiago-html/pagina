@@ -1,0 +1,25 @@
+script{
+
+    align-items: center;
+    
+}
+
+nav{
+
+   color:white;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin: 160px;
+   background-color: black;
+}
+
+input{
+   
+
+   margin: 15px;
+ height: 100px;
+ width: 15%;
+
+}
+
