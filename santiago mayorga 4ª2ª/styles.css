@@ -1,0 +1,30 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    background-color: aqua;
+    padding: 10px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+    height: 100px;
+
+}
+
+a
+
+
+
+h1{
+
+    text-align: center;
+
+    padding: 1rem;
+    border: solid 2px whitesmoke;
+}

@@ -1,0 +1,64 @@
+body{
+    background-image: url("banderaargentina.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+div{
+
+    display: contents ;
+    text-align: center;
+
+}
+
+h3{
+font-size: 300%;
+
+}
+
+p{
+    height:50%;
+    width: 100%;
+    font-size: 200%;
+}
+
+nav{
+   
+display: contents;
+align-items: center;
+text-align: center;
+    
+
+}
+
+nav2{
+   
+    h2{
+        color:aqua;
+    }
+    display: contents;
+    align-items: center;
+    text-align: center;
+        
+    
+    }
+    section{
+
+        img{
+            border: solid 5px white;
+        }
+    }
+
+
+    nav3{
+   
+        h2{
+            color:rgb(112, 16, 64);
+        }
+        display: contents;
+        align-items: center;
+        text-align: center;
+            
+    }
